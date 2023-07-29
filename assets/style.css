@@ -1,0 +1,149 @@
+body{
+    overflow-x: hidden;
+}
+.imgcarousel{
+    height: 670px;
+}
+.integrantes{
+    display:flex;
+    align-items: center;
+   height: 200px;
+   width: 225px;
+   border-radius: 80%;
+   font-size: 20px;
+   padding: 1px;
+}
+#nossotime{
+    text-align: center;
+}
+.time{
+    display: flex;
+    width: 50px;
+    height: 25px;
+    border-radius: 50%;
+}
+.carousel-caption h5{
+    font-size: 37px;
+    color: rgb(255, 230, 7);
+    text-shadow: 2px 2px 2px black;
+    
+}
+.produtos{
+    height: 450px;
+    width: 100%;
+}
+
+#titulo{
+    margin-bottom: 25px;
+}
+.quemsomos{
+    display:flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 1px;
+    
+}
+#pessoas{
+    height: 265px;
+    width: 350px;
+    border-radius: 85%;
+}
+/*----------------*/
+
+footer{
+    background: rgb(245, 132, 162);
+    padding: 50px;
+}
+
+.container-footer{
+    max-width: 1400px;
+    padding: 0.4%;
+    margin: auto;
+    border-top: 0.4px solid #ffe7e7;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: rgb(0, 6, 12);
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(7, 0, 0);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s;
+
+}
+.footer-col ul li a:hover{
+    color: rgb(255, 42, 99);
+    padding-left: 10px;    
+}
+.medias-socias{
+    margin-top: 10px;
+}
+.medias-socias a{ 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 50px, solid black;
+    transition: all 0.5s ease;
+}
+.medias-socias a i{
+    font-size: 20px;
+}
+.medias-socias a:hover{
+    color:rgb(255, 42, 99);
+    background-color: white;
+}
+.footer-col .form-sub input{
+    width:100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(255, 255, 255);;
+}
+.footer-col .form-sub input::placeholder{
+    color: rgb(0, 0, 0);
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(0, 0, 0);;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: rgb(245, 94, 134);
+}
